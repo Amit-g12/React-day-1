@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 1</title>
+</head>
+<body>
+    
+  <h2> 1. What is Virtual DOM</h2>
+<ul>
+    <li> React keeps a lightweight representation of the real DOM in the memory, and that is known as the virtual DOM.</li>
+    <li> When the state of an object changes, the virtual DOM changes only that object in the real DOM, rather than updating all the objects.</li>
+</ul>
+
+
+<h2>2. What is SPA ?</h2>
+<p>A single-page application(SPA) is an application that loads a single HTML page and all the necessary assets 
+    (such as JavaScript and CSS) required for the application to run.Any interactions with the page or subsequent 
+    pages do not require a round trip to the server which means the page is not reloaded.</p>
+
+    <h3>3:What is difference between class and functional component?</h3>
+    <h5>Class Component</h5>
+    <ul>
+        <li>A class component requires you to extends from React.Component and creates a render function which retirn a react element.</li>
+        <li>It must have the render() method returning the JSX which is syntactically similar to HTML.</li>
+        <li>It also known as "Stateful component" as they implemet logic and state.</li>
+        <li>React lifecycle method can be used inside the class component.</li>
+        <li>Constructor are used in class component as it need to stored the data and initializes the state.</li>
+    </ul>
+    <h5>Functional Component</h5>
+    <ul>
+        <li>A functional component is just a plain javascript function that accepts props as an arguments & returns a react elements.</li>
+        <li>There is no render method used in functional component.</li>
+        <li>It is also known as stateless component as they simply accepts data abd display them in some form.</li>
+        <li>React lifecycle methods cannot be used in the functional component.</li>
+        <li>Constructors are not used in the functional compoenent.</li>
+    </ul>
+    <br></br>
+
+<h2>4. What does mean by state and its use in react?</h2>
+<ul>
+    <li>State is similar to props, but it is private and fully controlled by the component ,i.e., it is not accessible to any other component till the owner component decides to pass it.</li>
+    <li>it is used to manipulate data within a component.</li>
+    <li>it can be declared within a Constructor or outside constructor.</li>
+    <li>it can be changed using this.setState only.</li>
+    <li>it changes can be asynchronous.</li>
+</ul>
+
+
+<h2>5. What is JSX and why do we use it instead of js?</h2>
+<p>JSX is popularly used in React, as it makes the job of building an application much easier. JSX is an addition to the JavaScript syntax which is a mixture of both HTML and JavaScript. Both JS and JSX are interchangeable but JSX makes the code easier to understand for users.</p>
+
+
+<h2>6. What is package.json ?</h2>
+<p>It is a JSON file that lives in the root directory of your project. Your package.json holds important information about the project. It contains human-readable metadata about the project</p>
+
+
+</body>
+</html>
